@@ -1,13 +1,30 @@
-<!DOCTYPE htlm>
-<html>
-    <head>
-        <title> Hello World </title>  
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>No Height Example</title>
+  <style>
+    body {
+      margin: 0; /* remove default body margin */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-    <h1>Hello World</h1>
-    <h2> welcome!</h2>
-
-    </body>
-</htlm>
-
+    .container {
+      width: 60%;
+      margin: auto; /* horizontal centering */
+      background: lightcoral;
+      
+      font-size: 24px;
+      color: white;
+      border: 2px solid red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    I am inside a container without height set
+  </div>
+</body>
+</html>
